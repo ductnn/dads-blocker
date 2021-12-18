@@ -1,0 +1,20 @@
+{
+    "name": "D Adblocker",
+    "version": "1.0",
+    "description": "D fcuking Adblocker",
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "icons/D_title.png",
+        "48": "icons/D_title.png",
+        "128": "icons/D_title.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
